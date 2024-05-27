@@ -30,7 +30,7 @@ function startTimer(duration) {
         timerElement.textContent = timer + ' seconds remaining';
         if (--timer < 0) {
             clearInterval(countdownInterval);
-            timerElement.textContent = 'Time's Up!';
+            timerElement.textContent = "Time's Up!";
             // Add any additional actions you want to take when the timer expires
         }
     }, 1000); // Update timer every 1 second (1000 milliseconds)
