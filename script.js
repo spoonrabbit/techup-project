@@ -16,6 +16,7 @@ function generateQuote() {
     const randomNumber = Math.floor(Math.random() * quotes.length);
     const randomQuote = quotes[randomNumber];
     document.getElementById('quote').textContent = randomQuote;
+}
 
 // Event listener for button click
 document.getElementById('generate-btn').addEventListener('click', generateQuote);
